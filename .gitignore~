@@ -3,10 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-CISO_Letter.pdf
-chromedriver.exe
-Request.xlsx
-
 # C extensions
 *.so
 
