@@ -1,0 +1,13 @@
+from selenium import webdriver
+
+url = 'https://ssp-srm-sso.se.com'
+browser = webdriver.Chrome()
+browser.get(url)
+
+supplier_db = browser.find_element_by_xpath('//*[@id="shortcut_nav_3999"]')
+supplier_db.click()
+
+search_bar = browser.find_element_by_xpath('//*[@id="searchTbl"]')
+search_bar.send('Accenture')
+
+
